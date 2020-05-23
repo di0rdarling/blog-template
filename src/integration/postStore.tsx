@@ -6,8 +6,8 @@ const faker = require("faker");
 export function getAllPosts() {
   let fetchedPosts: Post[] = [];
   let i = faker.random.number({
-    min: 10,
-    max: 50
+    min: 3,
+    max: 10
   });
   while (fetchedPosts.length < i) {
     fetchedPosts.push(generateFakePost());
