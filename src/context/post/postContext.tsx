@@ -22,7 +22,6 @@ export function PostStoreProvider(props: PostStoreProps) {
 
   useEffect(() => {
     let allPosts = getAllPosts();
-    console.log("fromConext", allPosts);
     dispatch({
       type: "set posts",
       payload: allPosts

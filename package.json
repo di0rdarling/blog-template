@@ -6,6 +6,7 @@
   "main": "src/index.tsx",
   "dependencies": {
     "@material-ui/core": "4.9.14",
+    "@material-ui/icons": "4.9.1",
     "@redux-offline/redux-offline": "2.5.2",
     "@types/node": "14.0.5",
     "faker": "4.1.0",
